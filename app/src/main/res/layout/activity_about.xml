@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/link"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/my_light_primary" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="480dp"
+        android:text="Name : Nurul Shazwani Binti Azri"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/group"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="460dp"
+        android:text="Group : RCS2405B"
+        android:textColor="#070000" />
+
+    <TextView
+        android:id="@+id/stuid"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="440dp"
+        android:text="Student ID : 2021899744"
+        android:textColor="#090000" />
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="420dp"
+        android:text="Programme Code : CS240"
+        android:textColor="#050000" />
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="399dp"
+        android:text="Copyright©2023 SHAZWANI"
+        android:textColor="#090000" />
+
+    <TextView
+        android:id="@+id/linkText"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="-305dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="362dp"
+        android:autoLink="web"
+        android:text="URL link : https://github.com/shazwaniazri/ezakat-calculator"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>
